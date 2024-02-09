@@ -1,0 +1,57 @@
+.hero {
+    background-image: url(../resources/banner-eva.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.hero__wrapper {
+    margin-bottom: 29px;
+    max-width: 400px;
+    height: 103px;
+}
+.hero__text { 
+    padding-bottom: 175px;
+    max-width: 400px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #FFF;
+}
+.hero__title {
+    max-width: 800px;
+    padding-bottom: 30px;
+    line-height: normal;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; 
+    letter-spacing: -2.4px;
+    color: #FF9913;
+}
+@media (max-width: 961px) {
+    .hero {
+        background-position: 40%;
+    }
+    .hero__title {
+        font-size: 60px;
+        max-width: 727px;
+    }
+    .hero__text {
+        max-width: 300px;
+    }
+}
+@media (max-width: 576px) {
+    .hero__title {
+        line-height: 50px;
+        font-size: 40px;
+        max-width: 400px;
+    }
+    .hero__text {
+        font-size: 18px;
+        letter-spacing: -0.45px;
+        max-width: 200px;
+    }
+
+}
